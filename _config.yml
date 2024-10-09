@@ -24,8 +24,8 @@ navigation:
     url: /
   - name: About
     url: /about
-  #- name: 归档
-   # url: /archive
+  - name: 归档
+   url: /archive
   - name: Tags
     url: /tags
   #- name: Img
@@ -34,8 +34,8 @@ navigation:
     #url: /music
   #- name: Video
     #url: /video
-  - name: Nav
-    url: /navigation
+  # - name: Nav
+  #   url: /navigation
 
 # Pagination
 paginate: 4
