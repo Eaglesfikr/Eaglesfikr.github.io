@@ -24,12 +24,12 @@ navigation:
     url: /
   - name: About
     url: /about
-  - name: Archive
-   url: /archive
+  # - name: Archive
+  #  url: /archive
   - name: Tags
     url: /tags
-  #- name: Img
-   # url: /photos
+  - name: Img
+   url: /photos
   #- name: Music
     #url: /music
   #- name: Video
