@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-## 关于我
-你好，我是Tingwei Wu。
-Graduate Student Graduate Student @ SEU
+
+-hello， I am Tingwei Wu。
+-a Graduate Student @ SEU
+-Cbersecurity Major
 
