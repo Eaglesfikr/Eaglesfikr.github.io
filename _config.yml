@@ -20,9 +20,9 @@ favicon: https://cdn.jsdelivr.net/gh/goldstine/goldstine.github.io/images/favico
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
-  - name: Home
+  - name: 首页
     url: /
-  - name: About
+  - name: 关于
     url: /about
   #- name: 归档
    # url: /archive
