@@ -319,10 +319,12 @@ img {
 //
 
 .wrapper-sidebar {
-  width: 30%;
+  width: 25%;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-color: $background-color;
+	// background-color: $background-color;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6)),
+  url('/img/pick2.jpg') no-repeat 20% 20%/ cover;
 	height: 100%;
 	top: 0;
 	left:0;
