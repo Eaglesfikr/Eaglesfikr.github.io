@@ -6,6 +6,7 @@ permalink: /about/
 
 
 -hello， I am Tingwei Wu。
--a Graduate Student @ SEU
+-a undergraduate Student @ SEU
 -Cbersecurity Major
+-nanjing china
 
