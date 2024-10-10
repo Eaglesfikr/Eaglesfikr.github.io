@@ -422,7 +422,8 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $link-color;
+      // color: $link-color;
+      color:#f8f9fa;
     }
   }
 }
