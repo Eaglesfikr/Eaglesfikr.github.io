@@ -522,7 +522,7 @@ nav {
 
 
 // TOC
-#body a:hover aside.toc {
+.toc:hover .toc {
   display: block;
 }
 
