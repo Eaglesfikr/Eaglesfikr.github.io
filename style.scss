@@ -19,15 +19,65 @@ html {
   font-size: $base-font-size;
 }
 
+//这样的写法可以直接把.toc更改位置来更改toc的位置和父子关系，我这里就将其放在了body里
+
 body {
   font-family: $base-font;
   color: $base-color;
   line-height: 1.7em;
   // background:url('/images/cube/1.jpg');
 
+  // .toc {
+  //   display: none;
+  //   width: 240px;
+  //   height: 60%;
+  //   // top:110%;
+  //   right: 0%;
+  //   background-color: rgba(73, 80, 87, 0.5);
+  //   position: fixed;
+  //   z-index: 4;
+  //   padding: 60px 20px 0 20px;
+    
+    
+  
+  //   &:before{
+  //     content:"目录";
+  //     margin: 0 0 1em 1em;
+  //     font-weight: 700;
+  //     font-size: 1.2em;
+  //     display: block;
+  //     padding-bottom: 0.6em;
+  //     border-bottom: 3px double $divider-color;
+  //   }
+  
+  //   li:before{
+  //     content:"";
+  //   }
+  
+  //   @include mobile{
+  //     display:none;
+  //   }
+  // }
+
+  // &:hover .toc{
+  //   display: block;
+  // }
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.ctoc {
+  margin: 0 auto;
+  width: 200px;
+  right: 0%;
   .toc {
     display: none;
-    width: 240px;
+    width: 200px;
     height: 60%;
     // top:110%;
     right: 0%;
@@ -60,13 +110,6 @@ body {
   &:hover .toc{
     display: block;
   }
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 0 20px;
-  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
