@@ -76,7 +76,8 @@ p {
 }
 
 a {
-  color: $link-color;
+  // color: $link-color;
+  color:#f1f3f5;
   text-decoration: none;
   cursor: pointer;
   -webkit-transition: all 0.5s;
@@ -419,11 +420,12 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    color:#f8f9fa;
 
     @include mobile {
       margin: 0 10px;
-      // color: $link-color;
-      color:#f8f9fa;
+      color: $link-color;
+      // color:#f8f9fa;
     }
   }
 }
