@@ -522,8 +522,12 @@ nav {
 
 
 // TOC
+#body a:hover aside.toc {
+  display: block;
+}
 
 .toc {
+  display: none;
   width: 240px;
   height: 100%;
   // top:110%;
