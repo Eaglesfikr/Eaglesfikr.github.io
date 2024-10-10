@@ -525,8 +525,10 @@ nav {
 
 .toc {
   width: 240px;
-  height: 100%;
-  left: 30%;
+  height: 65%;
+  top:110%;
+  left: 8%;
+  background-color: #495057;
   position: fixed;
   z-index: 4;
   padding: 60px 20px 0 20px;
@@ -552,7 +554,7 @@ nav {
 
 @media screen and (max-width:2200px) and (min-width:1200px){
   .withtoc{
-    padding-left: 260px;
+    padding-left: 0px;
   }
 }
 
