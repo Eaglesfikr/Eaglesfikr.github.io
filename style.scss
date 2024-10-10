@@ -537,9 +537,7 @@ nav {
   z-index: 4;
   padding: 60px 20px 0 20px;
   
-  :hover{
-    display: block;
-  }
+  
 
   &:before{
     content:"目录";
@@ -559,6 +557,10 @@ nav {
     display:none;
   }
 }
+
+.toc:hover,  
+.toc:focus-within { /* 可选：当toc内部元素获得焦点时也显示，增强可用性 */  
+  display: block; /* 鼠标悬停时显示 */  
 
 @media screen and (max-width:2200px) and (min-width:1200px){
   .withtoc{
