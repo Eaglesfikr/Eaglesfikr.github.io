@@ -322,7 +322,8 @@ img {
   width: 25%;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-color: $background-color;
+	// background-color: $background-color;
+  background-color:#495057
   // background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.6)),url('./images/background1.jpg') no-repeat 20% 20%/ cover;
 	height: 100%;
 	top: 0;
@@ -418,6 +419,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    color: #f8f9fa;
 
     @include mobile {
       margin: 0 10px;
@@ -665,8 +667,10 @@ nav {
 // Footer
 .wrapper-footer-desktop {
   margin-top: 50px;
-  border-top: 1px solid $footer-border-color;
-  background-color: $footer-background-color;
+  // border-top: 1px solid $footer-border-color;
+  // background-color: $footer-background-color;
+  border-top: 1px solid #495057;
+  background-color: #495057;
   position: absolute;
   clear:both;
   width:100%;
