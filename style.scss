@@ -27,54 +27,6 @@ body {
   line-height: 1.7em;
   // background:url('/images/cube/1.jpg');
 
-  // .toc {
-  //   display: none;
-  //   width: 240px;
-  //   height: 60%;
-  //   // top:110%;
-  //   right: 0%;
-  //   background-color: rgba(73, 80, 87, 0.5);
-  //   position: fixed;
-  //   z-index: 4;
-  //   padding: 60px 20px 0 20px;
-    
-    
-  
-  //   &:before{
-  //     content:"目录";
-  //     margin: 0 0 1em 1em;
-  //     font-weight: 700;
-  //     font-size: 1.2em;
-  //     display: block;
-  //     padding-bottom: 0.6em;
-  //     border-bottom: 3px double $divider-color;
-  //   }
-  
-  //   li:before{
-  //     content:"";
-  //   }
-  
-  //   @include mobile{
-  //     display:none;
-  //   }
-  // }
-
-  // &:hover .toc{
-  //   display: block;
-  // }
-}
-
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-  padding: 0 20px;
-  width: 100%;
-}
-
-.ctoc {
-  margin: 0 auto;
-  width: 200px;
-  right: 0%;
   .toc {
     display: none;
     width: 200px;
@@ -86,6 +38,9 @@ body {
     z-index: 4;
     padding: 60px 20px 0 20px;
     
+    a{
+      color: gainsboro;
+    }
     
   
     &:before{
@@ -111,6 +66,54 @@ body {
     display: block;
   }
 }
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  width: 100%;
+}
+
+// .ctoc {
+//   margin: 0 auto;
+//   width: 200px;
+//   right: 0%;
+//   .toc {
+//     display: none;
+//     width: 200px;
+//     height: 60%;
+//     // top:110%;
+//     right: 0%;
+//     background-color: rgba(73, 80, 87, 0.5);
+//     position: fixed;
+//     z-index: 4;
+//     padding: 60px 20px 0 20px;
+    
+    
+  
+//     &:before{
+//       content:"目录";
+//       margin: 0 0 1em 1em;
+//       font-weight: 700;
+//       font-size: 1.2em;
+//       display: block;
+//       padding-bottom: 0.6em;
+//       border-bottom: 3px double $divider-color;
+//     }
+  
+//     li:before{
+//       content:"";
+//     }
+  
+//     @include mobile{
+//       display:none;
+//     }
+//   }
+
+//   &:hover .toc{
+//     display: block;
+//   }
+// }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 2em;
