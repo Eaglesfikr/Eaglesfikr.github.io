@@ -6,13 +6,13 @@ permalink: /about/
 
 
 
-
+![favicon](img/favicon.png)
 
 hello， I am Tingwei Wu。
 
 
 
-a undergraduate Student @ SEU
+a undergraduate Student @ SEU	
 
 
 
