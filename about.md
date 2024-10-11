@@ -6,7 +6,7 @@ permalink: /about/
 
 
 
-![favicon](img/favicon.png)
+![favicon](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/images/202410111946136.png)
 
 hello， I am Tingwei Wu。
 
