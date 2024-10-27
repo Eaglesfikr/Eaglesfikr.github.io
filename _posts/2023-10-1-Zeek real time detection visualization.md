@@ -1,5 +1,5 @@
 ---
-title: zeek实时检测可视化
+title: Zeek real time detection visualization
 description: Use Zeek's captured traffic online at the same time as outputting log files for system analysis. Here's an example of package-level traffic (and more than that), and I'll show you how to visualize it.
 author: eaglesfikr
 date:   2023-11-22 11:33:00 +0800
