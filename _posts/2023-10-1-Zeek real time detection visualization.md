@@ -245,13 +245,11 @@ python3 zeek_3.py
 
 实时监控生成图：
 
-![1](img/1.png)
+![1](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/assets/commons/202410271427999.png)
 
-![2](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/202410101342300.png)
+![2](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/assets/commons/202410271427014.png)
 
-![2](img/2.png)
-
-![3](img/3.png)
+![3](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/assets/commons/202410271427892.png)
 
 #### 改进：
 
