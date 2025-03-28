@@ -3,8 +3,8 @@ title: PLG-MI-using CGAN and top-n to MI
 description: This is a novel model inference attack method, We utilized the conditional generation of adversarial networks andtop-n selection strategy labels to guide the training process. Through this method, the search space in the image reconstruction stage can be limited to the subspace of the target category, thereby avoiding interference from other irrelevant features.
 author: eaglesfikr
 date:   2023-11-22 11:33:00 +0800
-categories: [network measurement]
-tags: [network measurement, zeek]
+categories: [AI security]
+tags: [MIA, GAN]
 pin: true
 math: true
 mermaid: true
