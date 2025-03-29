@@ -47,4 +47,7 @@ This work is published under [MIT][mit] License.
 ```
 bundle install      #first using
 bundle exec jekyll s
+
+#when you upload post,note the filename and the images by picgo,useless the image of internal post,you need to save to /asset/commont/ 
 ```
+
