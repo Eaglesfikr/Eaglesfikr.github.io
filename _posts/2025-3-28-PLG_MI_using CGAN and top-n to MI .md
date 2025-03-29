@@ -293,13 +293,13 @@ iteration: 0030000/0030000, loss gen: 2.040687, loss dis 0.379708, inv loss -7.2
 
 In order to save time here, we didn't pass all of them down. We only took a few special files and folders(4 col is for one images):`preview/eval/class_id_001`
 
-![joined-image](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/_posts/img/joined-image.png)
-
 ![joined-image1](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/_posts/img/joined-image1.png)
 
 ![joined-image2](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/_posts/img/joined-image2.png)
 
 ![joined-image3](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/_posts/img/joined-image3-1743238259824.png)
+
+![joined-image](2025-3-28-PLG_MI_using%20CGAN%20and%20top-n%20to%20MI%20.assets/joined-image.png)
 
 It can be seen that for the second character, private characteristics such as gender, skin color, face shape, and eyes were gradually learned!!!
 
