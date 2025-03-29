@@ -299,7 +299,7 @@ In order to save time here, we didn't pass all of them down. We only took a few 
 
 ![joined-image3](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/_posts/img/joined-image3-1743238259824.png)
 
-![joined-image](2025-3-28-PLG_MI_using%20CGAN%20and%20top-n%20to%20MI%20.assets/joined-image.png)
+![joined-image](https://raw.githubusercontent.com/eaglesfikr/eaglesfikr.github.io/main/_posts/img/joined-image.png)
 
 It can be seen that for the second character, private characteristics such as gender, skin color, face shape, and eyes were gradually learned!!!
 
