@@ -21,9 +21,12 @@ There are three types of model inversion attacks (MIA), namely query based model
 ## background:
 
 The optimization problem of reverse attack based on GAN model can be expressed as follows:
+
 $$
 z^* = \arg\min \mathcal{L}_{inv}(T(G(\hat{z})), c)
 $$
+
+
 Among them,c is the true label of the private dataset
 
 The existing GAN based models undergo two search processes in reverse engineering: 
@@ -37,9 +40,11 @@ The existing problem with KED-MI is that although it uses soft label guidance (w
 ![image-20250328205351307](https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main/_posts/img/image-20250328205351307.png)
 
 Since a conditional generator is used, the search only needs to be conducted in the subspace of the specified category. In addition, it adds a random data augmentation module that performs random transformations on the generated images, including adjusting size, cropping, horizontal flipping, rotation, and color jitter. This module provides more stable convergence for generating realistic images while imposing constraints. In order to ensure that the reconstructed image is not deceptive (such as adversarial samples) or only trapped in local minima, it will perform random transformations on the generated image to obtain multiple related views. Intuitively speaking, if the reconstructed image does reveal the key discriminative features of the target category, then its category should remain consistent in these views.So, the formula obtained became like this:
+
 $$
 z^* = \arg\min_{\hat{z}} \sum_{i=1}^{m} \mathcal{L}_{inv}(T(\mathcal{A}_i(G(\hat{z}, c))), c)
 $$
+
 Among them, A is a set of random data augmentation methods
 
 
