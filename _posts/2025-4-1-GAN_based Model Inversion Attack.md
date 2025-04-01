@@ -40,7 +40,7 @@ People are always surprised at the usefulness of such an attack, and the fact th
 
 The above three articles are all white-box attacks, mainly because they all use the gradient information of the target model, taking PLG-MI as an example, according to the code \[[REPO](https://github.com/LetheSec/PLG-MI-Attack/blob/main/reconstruct.py)\]
 
-```
+```python
 z = utils.sample_z(
             bs, args.gen_dim_z, device, args.gen_distribution
         )
@@ -67,7 +67,7 @@ To solve this problem, gradient information under white-box conditions is needed
 ## Evaluate metrics
 
 | methods/Evaluate metrics                              | EMI  | GMI | KED-MI | PLG-MI | LOMMA | BREPMI | MIRROR | CDM-MI | LOKT |
-|----------------------------------------------|------|-----|--------|--------|-------|--------|--------|--------|------|
+|:----------------------------------------------|:------|:-----|:--------|:--------|:-------|:--------|:--------|:--------|:------|
 | ATTACK ACC                                  |      | ✔   |  ✔     |  ✔     | ✔     | ✔      |  ✔     | ✔      |  ✔   |
 | KNN.DIST                                    |      | ✔   |   ✔    | ✔      | ✔     |        |        | ✔      |  ✔   |
 | FEAT.DIST                                   |      | ✔   |        |        |       |        |  ✔     |        |      |
@@ -82,6 +82,8 @@ To solve this problem, gradient information under white-box conditions is needed
 | LPIPS                                       |      |     |        |        |       |        |        | ✔       |     |
 
 *Note*: The attack acc here is the input function is similar to that of the target model, and the classification results of the high-performance model are generally divided into TOP1 and TOP5
+
+
 
 ## acknowledgment
 
