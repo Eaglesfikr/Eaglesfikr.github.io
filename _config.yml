@@ -99,7 +99,7 @@ theme_mode: dark  # [light | dark]
 cdn: 'https://raw.githubusercontent.com/Eaglesfikr/Eaglesfikr.github.io/main'
 
 # the avatar on sidebar, support local or CORS resources,e.g. "/commons/avatar.jpg"
-avatar: "/assets/commons/202410270057305.jpg"
+avatar: "/assets/commons/PFrbdUmoQyzHd.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
