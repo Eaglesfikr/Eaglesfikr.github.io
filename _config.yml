@@ -35,8 +35,10 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: wtw
-  email: 859035546@qq.com # change to your email address
+  # name: 
+  # email:  # change to your email address
+  
+
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/esglesfikr4090 # change to your Twitter homepage
@@ -89,7 +91,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark  # [light | dark]
+theme_mode: light  # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
