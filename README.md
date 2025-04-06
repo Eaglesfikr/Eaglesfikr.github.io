@@ -49,5 +49,8 @@ bundle install      #first using
 bundle exec jekyll s
 
 #when you upload post,note the filename and the images by picgo,useless the image of internal post,you need to save to /asset/commont/ 
+
+
+#这里只是gem模式，无法自定义 CSS 或主题样式，要fork完整主题才可以
 ```
 
