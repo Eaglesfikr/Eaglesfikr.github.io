@@ -2,16 +2,16 @@
 title: How to become a good reviewer
 description: Writing techniques for review comments.
 author: eaglesfikr
-date:   2025-6-17 16:53:00 +0800
+date:   2025-9-22 16:53:00 +0800
 categories: [Essays on Life]
-tags: [Essays on Life]
+tags: [review]
 pin: true
 math: true
 mermaid: true
 image:
   path: /assets/commons/confused.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Life is in your own hands.
+  alt: How to become a good reviewer.
 ---
 
 As we all know, after our article is submitted, it will be assigned by editors to corresponding peer experts for review. Here, I will outline a few principles of their work, hoping to provide some help and caution for newcomers who are about to participate in the review process and for the authors submitting their work:
