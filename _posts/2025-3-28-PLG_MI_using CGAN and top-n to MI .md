@@ -8,10 +8,6 @@ tags: [MIA, GAN]
 pin: true
 math: true
 mermaid: true
-image:
-  path: /assets/commons/image-20250328205351307.png
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-  alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
 There are three types of model inversion attacks (MIA), namely query based model inversion, member inference attacks, and GAN based model inversion attacks. For the third type, GMI was first proposed by Zhang et al. in 2020. Later, Chen et al. proposed that KED-MI utilizes access to the target model to obtain soft labels for guided attacks, while PIG-MI here is modified based on the shortcomings of KED-MI and uses better conditional generation models to guide the generation of images to better reproduce the effects of the private training set.
