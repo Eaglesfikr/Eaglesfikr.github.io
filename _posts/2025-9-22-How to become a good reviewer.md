@@ -3,7 +3,7 @@ title: How to become a good reviewer
 description: Writing techniques for review comments.
 author: eaglesfikr
 date:   2025-9-22 16:53:00 +0800
-categories: [Essays on Life]
+categories: [review]
 tags: [review]
 pin: true
 math: true
