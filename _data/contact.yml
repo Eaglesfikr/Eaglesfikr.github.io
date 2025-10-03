@@ -8,18 +8,18 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-# - type: email
-#   icon: "fas fa-envelope"
-#   noblank: true # open link in current tab
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
 
 # - type: rss
 #   icon: "fas fa-rss"
 #   noblank: true
 
-- type: bilibili
-  icon: "fa-brands fa-bilibili"
-  url: "https://space.bilibili.com/474887081"
-  noblank: true
+# - type: bilibili
+#   icon: "fa-brands fa-bilibili"
+#   url: "https://space.bilibili.com/474887081"
+#   noblank: true
 
 
 - type: huggingface
