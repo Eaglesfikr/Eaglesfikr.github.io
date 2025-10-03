@@ -9,7 +9,17 @@ order: 4
 
 Hello, I'm tw W, an undergraduate student at Southeast University in China, majoring in cybersecurity. My interests and research hobbies include, but are not limited to, network measurement, situational awareness, vulnerability mining, AI security.
 
- What? If you want to know about my school, my advice is not to come.
 
-{% include embed/bilibili.html id='BV1VK4y137YC' %}
+
+🎓 **Education:**
+
+- 2021/08 - 2025/06: B. S. in Cyber Security and Engineering, Southeast University, China.
+- 2025/09 - Present: studying for Master's degree, Southeast University, China.
+
+🔍 **Keywords:**
+
+- AI security / Situational awareness / Network measurement / Vulnerability mining.
+- Painting / regular script Calligraphy
+- C  / Python / Java / Golang / LaTeX / HTML / CSS
+- Second Prize in Mathematics Competition
 

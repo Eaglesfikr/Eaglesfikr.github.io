@@ -21,11 +21,21 @@
 #   url: "https://space.bilibili.com/474887081"
 #   noblank: true
 
-
-- type: huggingface
-  icon: "far fa-face-smile-beam"
-  url: "https://huggingface.co/eaglesfikr"
+- type: transgram
+  icon: "fa-brands fa-telegram"
+  url: "https://t.me/eaglesfikr"
   noblank: true
+
+- type: reddit
+  icon: "fa-brands fa-reddit"
+  url: "https://www.reddit.com/user/eaglesfikr"
+  noblank: true
+
+
+# - type: huggingface
+#   icon: "far fa-face-smile-beam"
+#   url: "https://huggingface.co/eaglesfikr"
+#   noblank: true
 
 
 # Uncomment and complete the url below to enable more contact options
