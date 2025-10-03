@@ -30,6 +30,36 @@
 #sidebar ul li.nav-item a.nav-link {
     color: #ffffff;
 }
+// 副标题打字机效果
+#sidebar .site-subtitle {
+  font-size: 95%;
+  color: #ffffff;
+  margin-top: .25rem;
+  word-spacing: 1px;
+  user-select: none;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #ffffff;
+  width: 0;
+
+  animation: typing 2s steps(10, end) forwards,
+             blink 0.7s step-end 1.5s 1 forwards; 
+  /* 1s后开始闪烁，闪烁0次后停下 */
+}
+
+@keyframes typing {
+  to { width: 78%; }
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; } // 闪烁结束后光标消失
+  78% { border-color: var(--site-subtitle-color); }
+}
+
+
+
+
+
 
 
 // body::after {
