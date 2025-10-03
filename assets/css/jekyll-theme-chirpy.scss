@@ -72,7 +72,7 @@ body::before {
     background-size: cover;   /* 铺满整个伪元素 */
     background-repeat: no-repeat;
     background-position: center;
-    z-index: -10;              /* 放到内容下方 */
+    z-index: -2;              /* 放到内容下方 */
 }
 
 #topbar-wrapper {
@@ -92,3 +92,44 @@ footer {
     --bs-btn-hover-bg: #fd7114;
 }
 
+// #代码块样式头
+.code-header {
+  background-color: rgba(240, 243, 245, 0.8) !important; /* 半透明黑背景 */
+  color: #24292f !important; /* 默认文字改为白色 */
+  border-top-left-radius: 0.5rem;  /* 保留圆角，可根据需要调整 */
+  border-top-right-radius: 0.5rem;
+}
+// /* 里面的链接或按钮也统一成白色 */
+.code-header a,
+.code-header button,
+.code-header span {
+  color: #24292f !important;
+}
+
+// #代码块样式身
+.highlight {
+  overflow: auto;
+  padding-bottom: .75rem;
+  background-color: rgba(255, 255, 255, 0.8) !important; /* 半透明黑背景 */
+  color: #24292f !important; /* 白色文字 */
+}
+@media (min-width: 576px) {
+  div[class^=language-] .code-header::before {
+    background-color: #f54e42; /* 第一个圆 */
+    box-shadow: 
+      1.25rem 0 0 #f0c14b,  /* 第二个圆 */
+      2.5rem 0 0 #34c84a;   /* 第三个圆 */
+  }
+}
+
+
+
+#toc-wrapper::before,
+.toc-border-cover {
+  background: transparent !important;
+}
+#toc-wrapper::after {
+//   background: rgba(0, 0, 0, 0.6) !important; /* 半透明黑色 */
+  /* 或者完全透明 */
+  background: transparent !important; 
+}
