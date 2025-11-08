@@ -1,14 +1,14 @@
 ---
 title: (TMWF)Transformer-based Model for Multi-tab Website Fingerprinting
 description: An end-to-end multi-label website fingerprinting attack model, called the Transformer-based Multi-label Website Fingerprinting Attack Model.
-author: cotes
+author: eaglesfikr
 date: 2025-11-04 22:10:00 +0800
 categories: [ETC]
 tags: [website fingerprinting]
-render_with_liquid: false
+pin: true
+math: true
+mermaid: true
 ---
-
-
 
 ## 摘要：
 

@@ -4,7 +4,9 @@ author: eaglesfikr
 date: 2025-10-03 23:10:00 +0800
 categories: [Vulnerability Exploitation]
 tags: [tool]
-render_with_liquid: false
+pin: true
+math: true
+mermaid: true
 ---
 
 This is a process of installation and environment configuration using Burp Suite and Firefox.
