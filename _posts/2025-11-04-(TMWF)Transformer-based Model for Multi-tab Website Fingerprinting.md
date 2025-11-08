@@ -24,10 +24,9 @@ mermaid: true
 ## 方法
 
 > ？目标检测为什么可以启发WF多标签视为**预测具有最大长度的有序集的问题：**
->
-> {: .prompt-tip }
+{: .prompt-tip }
 
-- 作者借鉴物体检测（object detection）在计算机视觉中的思路：将“每个标签页访问行为”视为一个“查询（query）”或“一个目标对象”，模型预测若干个 query，从流量中识别多个访问。 [github.com+1](https://github.com/jzx-bupt/TMWF?utm_source=chatgpt.com)
+- 作者借鉴物体检测（object detection）在计算机视觉中的思路：将“每个标签页访问行为”视为一个“查询（query）”或“一个目标对象”，模型预测若干个 query，从流量中识别多个访问。 
 - 每个 query 对应一个子任务：预测一个访问页面类别 + 其“位置”或“起止”在混合流量中的大致位置（类似检测物体的 bounding box 起止）。
 
 | 目标检测                      | 多标签 WF                                   |

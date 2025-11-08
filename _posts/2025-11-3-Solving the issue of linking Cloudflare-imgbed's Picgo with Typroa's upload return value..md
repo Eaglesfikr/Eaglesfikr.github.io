@@ -18,14 +18,12 @@ image:
 **The official Cloudflare-imgbed documentation provides configuration methods in its Q&A section**
 
 >[https://cfbed.sanyue.de/qa/](https://cfbed.sanyue.de/qa/)
->
->{: .prompt-tip }
+{: .prompt-tip }
 
 **However, under normal circumstances, even if the mirror address is changed, it's impossible to directly install its customizable prefix web-uploader plugin in Picgo. Therefore, we searched for resources elsewhere:**
 
 >[Awesome-PicGo/README.md at master · PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo/blob/master/README.md)
->
->{: .prompt-tip }
+{: .prompt-tip }
 
 **The aforementioned repository provides a custom `picgo-plugin-custom-api-uploader` plugin. We select it and modify the configuration according to our needs.**
 
