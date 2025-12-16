@@ -4,8 +4,9 @@ author: eaglesfikr
 date: 2025-12-16 14:10:00 +0800
 categories: [MIA]
 tags: [MIA, GAN]
-render_with_liquid: false
-
+pin: true
+math: true
+mermaid: true
 ---
 
 This post systematically clarifies the distinction between **Backbone (feature extractor)** and a **full model (Backbone + Task Head)** from both engineering and research perspectives, and explains why understanding this distinction can fundamentally resolve the long-standing problem of *cross-CNN model adaptation* in model inversion and security research.
