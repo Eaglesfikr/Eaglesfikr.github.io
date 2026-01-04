@@ -1,5 +1,6 @@
 ---
-title: Backbone 与完整模型的区别：从概念到统一模型逆向
+title: The difference between backbone and the full model_from concept to reverse engineering a unified model
+description: This post systematically clarifies the distinction between Backbone (feature extractor) and a full model (Backbone + Task Head) from both... engineering
 author: eaglesfikr
 date: 2025-12-16 14:10:00 +0800
 categories: [MIA]
